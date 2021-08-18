@@ -10,6 +10,18 @@ This is the Apple stock price dataset of 2020 year.
 
 
 
+### Used Algorithms and Deep Learing Framework 
+1. MinMaxScaler
+2. Stacked LSTM, Dense
+
+
+### Future Work 
+1. More Data preprocessing for example, Standardize and Normalize of the training data
+2. Use more layer for example Dropout layer for overcomming overfitting during building Model 
+3. Use Conv1D layer for the model building 
+4. Hyperparameter tuning in Deep Learning for exmple different activation function adam, SGD, Adagrad, RMSProp, Momentum and different loss function for example Mean Squared Error Loss, Mean Squared Logarithmic Error Loss, Mean Absolute Error Loss
+
+
 ### Some Overview of the Code 
 
 #### Import Library
@@ -62,3 +74,4 @@ This is the Apple stock price dataset of 2020 year.
 
 #### Final Visualization of all data with predicted data 
 ![alt txt](https://github.com/hasan-moni-321/Apple-Stocked-Price-Prediction-Using-Stacked-LSTM/blob/master/images/17.png)
+
